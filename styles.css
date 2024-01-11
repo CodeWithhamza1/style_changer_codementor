@@ -1,0 +1,63 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #282c35;
+    color: #fff;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+#content {
+    text-align: center;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 2.5em;
+    margin: 0;
+}
+
+.social-icons {
+    margin-top: 10px;
+}
+
+.social-icon {
+    color: #61dafb;
+    font-size: 1.5em;
+    margin: 0 10px;
+    transition: color 0.3s;
+}
+
+.social-icon:hover {
+    color: #38a1f3;
+}
+
+#dynamic-content {
+    font-size: 1.2em;
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+
+#countdown-timer {
+    font-size: 2em;
+    font-weight: bold;
+    color: #61dafb;
+    margin-bottom: 20px;
+    display: inline-block;
+}
+
+#countdown-timer::before {
+    content: "\2022";
+    display: inline-block;
+    margin-right: 10px;
+    color: #61dafb;
+    font-size: 1.5em;
+}
